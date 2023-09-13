@@ -8,8 +8,9 @@
 <p align="center">
 <img src="./Media/1.jpg" width="500" height="400"/>
 </p>
+
 2. **Slide switch to turn ON and OFF an LED:** We use a slide switch to turn an LED ON and OFF. As before, the LED is connected to the Arduino via a resistor. 
- - We define the pin of Arduino that is connencted to the common contact of the switch, as  **INPUT_PULLUP**, which means that this pin is an input, and it is HIGH by default, if it is not connected to the GROUND.
+ - We define the pin of Arduino that is connencted to the common contact of the switch, as **INPUT_PULLUP**, which means that this pin is an input, and it is HIGH by default, if it is not connected to the GROUND.
 <p align="center">
 <a href="https://wokwi.com/projects/375711320031687681" >Slide switch to toggle LED: click to get the code</a></p>
 <p align="center">
