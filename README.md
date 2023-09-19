@@ -25,3 +25,12 @@
 <p align="center">
 <img src="./Media/3.jpg" width="500" height="400"/>
 </p>
+
+4. **Playing a frequency on speaker with pushbutton:** A pushbutton is used to play a frequency on the speaker. By pressing or press-and-holding the pushbutton, the speaker gets a square wave, which we can hear it.
+ - **tone(pin,frequency) or tone(pin,frequency,duration)** is a function that creates a square wave having 50% duty cycle with the specified frequency in Hertz. if duration (in milliseconds) is given, it generates the square wave for the given duration.
+ - **noTone(pin)** Stops the frequency generation on the given pin.
+<p align="center">
+<a href="https://wokwi.com/projects/376316961305570305" >Generating sound with given frequency by pressing pushbutton: click to see the live demo., and get the code</a></p>
+<p align="center">
+<img src="./Media/4.jpg" width="500" height="400"/>
+</p>
