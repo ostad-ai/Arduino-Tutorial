@@ -45,7 +45,6 @@
 <img src="./Media/5.jpg" width="500" height="400"/>
 </p>
 
-
 6. **Displaying text on LCD:** An LCD is connected to arduino-uno via the data format 4-bit, which means only 4-bit are used for data transfer. We connect d4-d7 to pins of arduni for data transfer. Also, E(Enable) and RS (Register Select) pins are connected to arduino.
  - We use **LiquidCrystal** library for working with LCD. An lcd object is created using this library, which we name it *lcd*.
  - **lcd.begin(16,2)** declares that the lcd has 16 characters in each row, and it has two rows.
@@ -55,4 +54,15 @@
 <a href="https://wokwi.com/projects/376952093387792385" >Displaying text on the LCD: click to see the live demo., and get the code</a></p>
 <p align="center">
 <img src="./Media/6.jpg" width="500" height="400"/>
+</p>
+
+7. **Typing characters on LCD with keypad:** A keypad is connected to arduino along an LCD. The keypad here has eight pins, four rows and four columns. 
+ - For the LCD, We use **LiquidCrystal** library as explained in previous post.
+ - For the keypad, we use **Keypad** library, and thus creating a **Keypad object**,named *keypad* from this library.
+ - By using **keypad.getKey()** we get the key that has been pressed.
+ - Like previous post, we use **lcd.print(key)** to type the pressed key on the LCD.
+<p align="center">
+<a href="https://wokwi.com/projects/377394615913614337" >Typing characters on LCD with keypad: click to see the live demo., and get the code</a></p>
+<p align="center">
+<img src="./Media/7.jpg" width="500" height="400"/>
 </p>
