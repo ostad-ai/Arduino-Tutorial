@@ -66,3 +66,13 @@
 <p align="center">
 <img src="./Media/7.jpg" width="500" height="400"/>
 </p>
+
+8. **Distance measurement with ultrasonic range finder:** An ultrasonic range finder is connected to the arduino. This range finder sends sound to the front and listens for the echo of the sound. To show the measured distance, we use an LCD, which is also connected to the arduino. 
+ - AS previous post, for the LCD, **LiquidCrystal** library is employed.
+ - The trigger pin of the URF (Ultrasonic range finder) is set from LOW to HIGH for at least 10 microseconds to start the distance measurement.
+ - By using **pulseIn(echo_pin,HIGH)**, we measure the time that a HIGH pulse is detected in the pin echo_pin until this pulse goes to LOW. This measured time is twice the the time for the sound wave to hit the obstacle.
+ <p align="center">
+<a href="https://wokwi.com/projects/377940164197559297" >Distance measurement with ultrasonic range finder</a></p>
+<p align="center">
+<img src="./Media/8.jpg" width="500" height="400"/>
+</p>
